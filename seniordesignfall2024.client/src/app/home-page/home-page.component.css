@@ -1,0 +1,46 @@
+.urgent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.news {
+  width: 76%;
+  background-color: rgb(208, 48, 48);
+  padding: 0 2%;
+}
+
+.title {
+  width: 20%;
+  text-align: center;
+  background: rgb(166, 54, 54);
+  position: relative;
+}
+
+  .title:after {
+    position: absolute;
+    content: "";
+    right: -16%;
+    bottom: -10%;
+    border-left: 30px solid rgb(166, 54, 54);
+    border-top: 70px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 70px solid transparent;
+  }
+
+#check {
+  display: contents;
+}
+
+label #btn {
+  position: absolute;
+  cursor: pointer;
+  background: white;
+  border-radius: 3px;
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: black;
+}
